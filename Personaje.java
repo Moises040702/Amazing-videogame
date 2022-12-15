@@ -7,4 +7,13 @@ public class Personaje {
         fuerza = fuerzaDePersonaje;
         localizacion = localizacionDePersonaje;
     }
+    public void setNombre(String nuevoNombre){
+        nombre = nuevoNombre;
+    }
+    public void setFuerza(int otraFuerza){
+        fuerza = otraFuerza;
+    }
+    public void setLocalizacion(Escenario nuevaLocalizacion){
+        localizacion = nuevaLocalizacion;
+    }
 }
