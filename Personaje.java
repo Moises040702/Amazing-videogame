@@ -7,4 +7,16 @@ public class Personaje {
         fuerza = fuerzaDePersonaje;
         localizacion = localizacionDePersonaje;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getFuerza() {
+        return fuerza;
+    }
+
+    public Escenario getLocalizacion() {
+        return localizacion;
+    }
 }
