@@ -26,4 +26,9 @@ public class Escenario
     public void setLlueve(boolean otroLlueve) {
         llueve = otroLlueve;
     }
+
+    public void imprimirDetalles(){
+        System.out.println("Tamaño: " + tamaño  + " ¿Llueve?:" + llueve); 
+    }
 }
+
