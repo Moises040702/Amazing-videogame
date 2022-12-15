@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Personaje
+comment1.params=nombreDePersonaje\ fuerzaDePersonaje\ localizacionDePersonaje
+comment1.target=Personaje(java.lang.String,\ int,\ Escenario)
+numComments=2
