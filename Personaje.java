@@ -31,4 +31,7 @@ public class Personaje {
     public Escenario getLocalizacion() {
         return localizacion;
     }
+    public void imprimirDetalles(){
+        System.out.println("Nombre: " + nombre  + " Fuerza:" + fuerza + " Localización: " + localizacion); 
+    }
 }
