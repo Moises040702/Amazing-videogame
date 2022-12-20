@@ -2,15 +2,6 @@
 comment0.target=Personaje
 comment1.params=nombreDePersonaje\ fuerzaDePersonaje\ localizacionDePersonaje
 comment1.target=Personaje(java.lang.String,\ int,\ Escenario)
-<<<<<<< HEAD
-comment2.params=
-comment2.target=java.lang.String\ getNombre()
-comment3.params=
-comment3.target=int\ getFuerza()
-comment4.params=
-comment4.target=Escenario\ getLocalizacion()
-numComments=5
-=======
 comment2.params=nuevoNombre
 comment2.target=void\ setNombre(java.lang.String)
 comment3.params=otraFuerza
@@ -26,4 +17,3 @@ comment7.target=Escenario\ getLocalizacion()
 comment8.params=
 comment8.target=void\ imprimirDetalles()
 numComments=9
->>>>>>> 95d692ceb2bebd68f48b20329f797733e4c9081a
