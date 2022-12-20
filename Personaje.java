@@ -8,6 +8,18 @@ public class Personaje {
         localizacion = localizacionDePersonaje;
     }
 
+    public void setNombre(String nuevoNombre){
+        nombre = nuevoNombre;
+    }
+
+    public void setFuerza(int otraFuerza){
+        fuerza = otraFuerza;
+    }
+
+    public void setLocalizacion(Escenario nuevaLocalizacion){
+        localizacion = nuevaLocalizacion;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -18,5 +30,8 @@ public class Personaje {
 
     public Escenario getLocalizacion() {
         return localizacion;
+    }
+    public void imprimirDetalles(){
+        System.out.println("Nombre: " + nombre  + " Fuerza:" + fuerza + " Localización: " + localizacion); 
     }
 }
