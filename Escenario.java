@@ -1,26 +1,26 @@
 public class Escenario
 {
-    private float tamaño;
+    private float tamanio;
     private boolean llueve;
     /**
      * Constructor for objects of class Escenario
      */
-    public Escenario(float tamañoDelPersonaje)
+    public Escenario(float tamanioDelPersonaje)
     {
-        tamaño = tamañoDelPersonaje;
+        tamanio = tamanioDelPersonaje;
         llueve = true;
     }
 
-    public float getTamaño() {
-        return tamaño;
+    public float getTamanio() {
+        return tamanio;
     }
 
     public boolean getLlueve() {
         return llueve;
     }
 
-    public void setTamaño(float otroTamaño) {
-        tamaño = otroTamaño;
+    public void setTamanio(float otroTamanio) {
+        tamanio = otroTamanio;
     }
 
     public void setLlueve(boolean otroLlueve) {
@@ -28,7 +28,7 @@ public class Escenario
     }
 
     public void imprimirDetalles(){
-        System.out.println("Tamaño: " + tamaño  + " ¿Llueve?:" + llueve); 
+        System.out.println("Tamaño: " + tamanio  + " ¿Llueve?: " + llueve); 
     }
 }
 

@@ -2,4 +2,10 @@
 comment0.target=Personaje
 comment1.params=nombreDePersonaje\ fuerzaDePersonaje\ localizacionDePersonaje
 comment1.target=Personaje(java.lang.String,\ int,\ Escenario)
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=int\ getFuerza()
+comment4.params=
+comment4.target=Escenario\ getLocalizacion()
+numComments=5

@@ -1,14 +1,14 @@
 #BlueJ class context
 comment0.target=Escenario
-comment1.params=tama\u00F1oDelPersonaje
+comment1.params=tamanioDelPersonaje
 comment1.target=Escenario(float)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Escenario\r\n
 comment2.params=
-comment2.target=float\ getTama\u00F1o()
+comment2.target=float\ getTamanio()
 comment3.params=
 comment3.target=boolean\ getLlueve()
-comment4.params=otroTama\u00F1o
-comment4.target=void\ setTama\u00F1o(float)
+comment4.params=otroTamanio
+comment4.target=void\ setTamanio(float)
 comment5.params=otroLlueve
 comment5.target=void\ setLlueve(boolean)
 comment6.params=
