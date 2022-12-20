@@ -32,6 +32,7 @@ public class Personaje {
         return localizacion;
     }
     public void imprimirDetalles(){
-        System.out.println("Nombre: " + nombre  + " Fuerza:" + fuerza + " Localización: " + localizacion); 
+        System.out.println("Nombre: " + nombre  + " Fuerza: " + fuerza + " Llueve: " + localizacion.getLlueve() + 
+                            " Tamanio del escenario: " + localizacion.getTamanio()); 
     }
 }
